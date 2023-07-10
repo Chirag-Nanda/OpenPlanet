@@ -1,0 +1,11 @@
+service : {
+  completePurchase: (principal, principal, principal) -> (text);
+  getCanisterId: () -> (principal) query;
+  getItemPrice: (principal) -> (nat) query;
+  getOriginalOwnerId: (principal) -> (principal) query;
+  getOwnedNFTs: (principal) -> (vec principal) query;
+  isListed: (principal) -> (bool) query;
+  listItems: (principal, nat) -> (text);
+  listedItems: () -> (vec principal) query;
+  mint: (text, vec nat8) -> (principal);
+}

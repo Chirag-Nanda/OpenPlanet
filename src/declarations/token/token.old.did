@@ -1,0 +1,7 @@
+service : {
+  getName: () -> (text) query;
+  getObject: () -> (vec nat8) query;
+  getOwner: () -> (principal) query;
+  getPrincipal: () -> (principal) query;
+  transferNFTs: (principal) -> (text);
+}
